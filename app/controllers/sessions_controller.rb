@@ -1,8 +1,5 @@
 class SessionsController < ApplicationController
 
-    protect_from_forgery
-    include SessionsHelper
-
     def new
         @title = "Sign in"
     end
